@@ -7,8 +7,8 @@ import { playListMockUp } from "../MockUpData";
 
 export default function SideBar() {
   const navigate = useNavigate();
-  const [playList, setPlayList] = useState({});
-  const role = "User";
+  const [playList, setPlayList] = useState([]);
+  const role = "Admin";
 
   function setPlaylistData() {
     if (role === "User") {

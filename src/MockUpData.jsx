@@ -4,7 +4,7 @@ export const playListMockUp = [
     cover:
       "https://s3-alpha-sig.figma.com/img/748f/3ecd/940d2e4b12f61770166167c9fc7c10ca?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HPO~I~6Y11UL3G6~DuBLfHlrbPhKTaCOzU~xrtDtLhs5TxR53UOh0VgKm~UYJ2ipoNCIUa5KZmihgEWDZlE8CDiqpFbXlDT8vO2CalLui7Y1yB6tLG~4W6bwOjlXGQeYXOl8sczZlC-zQsSw4NbzF9PqhvFU6HU6oiqo7jOUUsvNRzY36lqfZ23QYgrbhHMpZx~FkuZ92zYNR9miY~g-dl-3jS7XvHdMBalmlTPC-5x5Mba2EU75pXVroQpTF7TdocarB49QeAF2tnuZyHNiYRRu2wvvAY89fhuye1e-ANg1cYp1H~H8sLZcsAapT5b~oUKBWDa8KfgseX9j2ucGQw__",
     description: "All Song in Hello World Hippo",
-    author: "Hipponify",
+    author: "Hippotify",
     type: "Public Playlist",
     role: "User",
     ID: 1,
