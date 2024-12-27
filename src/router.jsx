@@ -2,6 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 
 import App from "./App";
 import Playlist from "./pages/Playlist";
+import Signin from "./pages/Signin"
+import Signup from "./pages/Signup"
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/signin",
+    element: <Signin />,
+  },
+  {
+    path: "/signup",
+    element: <Signup />,
+  }
 ]);
 
 export default router;

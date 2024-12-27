@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Flex, Box, Image } from "@chakra-ui/react";
-import { Button } from "./ui/button";
+import { Button } from "../components/ui/button";
 
 import { playListMockUp } from "../MockUpData";
 
