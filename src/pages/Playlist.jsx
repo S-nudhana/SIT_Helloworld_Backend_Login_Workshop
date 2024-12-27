@@ -16,7 +16,7 @@ import { playListMockUp } from "../MockUpData";
 import { timeFormatHMS } from "../utils/timeFormatChange";
 
 export default function Playlist() {
-  const ID = useParams().id ? useParams().id : 1;
+  const ID = useParams().id ? useParams().id : 3;
 
   const playList = playListMockUp.find((item) => item.ID === parseInt(ID));
   const duration = timeFormatHMS(
