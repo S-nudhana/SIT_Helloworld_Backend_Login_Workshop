@@ -5,7 +5,9 @@ import Navigation from "./components/Navigation";
 import SideBar from "./components/SideBar";
 import MusicPlayer from "./components/MusicPlayer";
 
-export default function App() {
+import authMiddleware from "./middleware/authMiddleware";
+
+function App() {
   return (
     <>
       <Box as="nav" position="fixed" top="0" left="0" right="0" zIndex="1000">
@@ -45,3 +47,5 @@ export default function App() {
     </>
   );
 }
+
+export default authMiddleware(App);
